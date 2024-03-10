@@ -3,7 +3,6 @@ import "./Home.css";
 import Footer from "../footer";
 import WeatherInPlaces from "../WeatherInPlaces/WeatherInPlaces";
 
-import { useState } from "react";
 import "./Home.css";
 function Home() {
   return (

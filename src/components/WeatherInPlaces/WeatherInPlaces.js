@@ -1,6 +1,5 @@
 import { WEATHER_API_URL, WEATHER_API_KEY } from "../api";
 import React, { useEffect, useState } from "react";
-import { ReactDOM } from "react";
 
 export default function WeatherSearch(props) {
   const [data, setData] = useState(null);
