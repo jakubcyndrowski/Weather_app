@@ -1,0 +1,67 @@
+.daily-weather {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  min-height: 500px;
+  position: relative;
+}
+
+.daily-item {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.daily-details-grid {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+.clickSpan {
+  position: absolute;
+  bottom: 5%;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 960px) {
+  .daily-weather {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+  }
+  .day-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .day-weather:last-child {
+  }
+  .clickSpan {
+    position: absolute;
+    bottom: 0%;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /* .daily-details-grid {
+    height: 100%;
+  } */
+}
